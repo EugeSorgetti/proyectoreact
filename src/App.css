@@ -43,6 +43,8 @@
   margin: 0;
   padding: 0;
 }
+
+
 nav ul {
   display: flex;
   flex-direction: row;
@@ -61,4 +63,32 @@ a {
 
 ul li:hover {
   background-color: pink;
+}
+
+.header {
+  background-color: #19181a;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0;
+  position: fixed;
+}
+
+.cartIcon {
+  padding-right: 40px;
+  font-size: 30px;
+  color: white;
+}
+
+p {
+  color: black;
+}
+
+.bienvenida {
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: center;
 }

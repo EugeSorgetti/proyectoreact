@@ -1,3 +1,7 @@
+:root {
+  --main-colour:  rgb(248, 215, 105);
+}
+
 .App {
   text-align: center;
 }
@@ -62,7 +66,12 @@ a {
 }
 
 ul li:hover {
-  background-color: pink;
+  background-color: var(--main-colour)
+
+}
+
+ul li:hover a{
+  color: #19181a;
 }
 
 .header {
@@ -91,4 +100,35 @@ p {
   top: 100px;
   display: flex;
   justify-content: center;
+}
+
+.counter {
+  margin: 0 auto;
+  background-color: var(--main-colour);
+  height: 60vh;
+  width: 60vw;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.counter p:first-child {
+
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+.counter p:last-of-type {
+
+  padding-top: 50px;
+  font-weight: bold;
+  color: brown;
+  font-size: 1.25rem;
+}
+.counter button {
+  width: 50px;
+  height: 50px;
+  margin: 100px 20px;
 }
